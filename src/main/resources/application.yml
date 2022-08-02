@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: kjs
+    url: jdbc:mariadb://ec2-3-129-195-197.us-east-2.compute.amazonaws.com:3306/KJS?useUnicode=true&characterEncoding=utf8
+    password: kjs1010%%
+  thymeleaf:
+    prefix: classpath:/templates/
+
+
+#   mybatis : 쿼리를 바로 사용할 수 있다..
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

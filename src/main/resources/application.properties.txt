@@ -1,0 +1,8 @@
+spring.datasource.url= ec2-3-129-195-197.us-east-2.compute.amazonaws.com:3306/KJS
+spring.datasource.username= kjs
+spring.datasource.password= kjs1010%%
+spring.datasource.driver-class-name= org.mariadb.jdbc.Driver
+
+spring.thymeleaf.prefix=classpath:/templates/
+
+
